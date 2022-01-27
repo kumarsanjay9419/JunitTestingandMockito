@@ -1,5 +1,7 @@
 package com.sk.service;
 
+import java.util.List;
+
 import com.sk.dao.ContactDao;
 
 public class ContactServiceImpl implements IContactService {
@@ -18,6 +20,12 @@ public class ContactServiceImpl implements IContactService {
 		//logic
 		String formattedName = name.toUpperCase();
 		return formattedName;
+	}
+
+
+	public List<String> getNames() {
+		
+		return null;
 	}
 
 }
