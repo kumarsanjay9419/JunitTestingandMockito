@@ -8,7 +8,7 @@ import org.junit.Test;
 import com.sk.dao.ContactDao;
 
 public class ContactTestService {
-	
+	//unit testing annotation
 	@Test
 	public void getTestNameById_01() {
 		
